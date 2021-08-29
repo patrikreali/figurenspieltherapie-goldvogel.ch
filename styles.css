@@ -4,7 +4,8 @@ body {
 }
 
 h1 {
-    font-family: sans-serif;
+/*    font-family: sans-serif; */
+    font-family: fantasy;
     font-size: 6vw;
     /* font-size: 72px; */
 /*    font-size: xx-large;*/
@@ -20,7 +21,7 @@ p, li, table {
     /* border: 2px solid red; */
     /* border-radius: 5px; */
     margin: auto;
-    padding: 10px 10px 10px 10px;
+    padding: 40px 40px 40px 40px;
     overflow: auto;
     max-width: 1024px;
 }
@@ -39,6 +40,10 @@ p, li, table {
 .section h2 {
     font-size: xx-large;
     color: black;
+}
+
+td.right {
+    text-align: right;
 }
 
 img.right {
