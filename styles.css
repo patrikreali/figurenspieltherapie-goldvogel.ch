@@ -1,22 +1,20 @@
 body {
     /* text-align: center; */
-    background-color: bisque;
+    background-color: ivory;
 }
 
 h1 {
     font-family: sans-serif;
-    font-size: 8vw;
+    font-size: 6vw;
     /* font-size: 72px; */
-    /* font-size: xx-large; */
+/*    font-size: xx-large;*/
     text-align: center;
-    color:darkmagenta;
+    color:black;
 }
 
-p {
+p, li, table {
     font-size: larger;
 }
-
-
 
 .section {
     /* border: 2px solid red; */
@@ -27,9 +25,20 @@ p {
     max-width: 1024px;
 }
 
+.header {
+  text-align: center;	
+	background-color: lavender;
+	border: 2px solid black;
+  border-radius: 20px;
+}
+
+.alternate {
+	background-color: wheat;
+}
+
 .section h2 {
     font-size: xx-large;
-    color:darkmagenta;
+    color: black;
 }
 
 img.right {
@@ -49,7 +58,7 @@ img.left {
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     img {
         width: 100px;
         /* width: 33%; */
@@ -59,7 +68,7 @@ img.left {
         float: right;
     }
 
-    p {
+    p, li, table {
         font-size: medium;
     }
 
