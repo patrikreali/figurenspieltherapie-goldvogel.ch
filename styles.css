@@ -10,7 +10,7 @@ h1 {
     /* font-size: 72px; */
 /*    font-size: xx-large;*/
     text-align: center;
-    color:black;
+    color:#6e6e0a;
 }
 
 p, li, table {
@@ -28,13 +28,17 @@ p, li, table {
 
 .header {
   text-align: center;	
-	background-color: lavender;
-	border: 2px solid black;
-  border-radius: 20px;
+  /* background-color: #97c55a; */
+  background-color: #70ad47;
+  /* border: 2px solid black; */
+  /* border-radius: 20px; */
 }
 
 .alternate {
-	background-color: wheat;
+	/* background-color: wheat; */
+	/* background-color: #e0e9d7; */
+	background-color: rgb(233, 233, 218);
+    border-radius: 20px;
 }
 
 .section h2 {
@@ -62,6 +66,11 @@ img.left {
     text-align: center;
 }
 
+.floatleft {
+    float: left;
+    margin: 1em;
+
+}
 
 @media screen and (max-width: 768px) {
     img {
