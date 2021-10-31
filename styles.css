@@ -1,14 +1,21 @@
 body {
     /* text-align: center; */
-    background-color: ivory;
+    background-color: white;
+    /* background-color: ivory; */
+
+    text-align: justify;
+    /* font-family: Helvetica; */
+    line-height: 1.5;
+}
+
+/* Change link colors to black */
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
 }
 
 h1 {
-/*    font-family: sans-serif; */
-    font-family: fantasy;
-    font-size: 6vw;
-    /* font-size: 72px; */
-/*    font-size: xx-large;*/
     text-align: center;
     color:#6e6e0a;
 }
@@ -18,47 +25,67 @@ p, li, table {
 }
 
 .section {
-    /* border: 2px solid red; */
-    /* border-radius: 5px; */
     margin: auto;
-    padding: 40px 40px 40px 40px;
+    padding: 8em 0em 0em 0em;
     overflow: auto;
     max-width: 1024px;
 }
 
 .header {
   text-align: center;	
-  /* background-color: #97c55a; */
   background-color: #70ad47;
-  /* border: 2px solid black; */
-  /* border-radius: 20px; */
 }
 
-.alternate {
-	/* background-color: wheat; */
-	/* background-color: #e0e9d7; */
-	background-color: rgb(233, 233, 218);
-    border-radius: 20px;
+.nopadding {
+    padding: 0em;
 }
 
 .section h2 {
-    font-size: xx-large;
+    /* Box */
+    margin-block-start: 0em;
+    background-color: #70ad47;
+
+    /* Font */
+    font-size: 300%;
+    text-align: center;
     color: black;
+}
+
+em {
+    font-size: 150%;
+}
+
+blockquote {
+    font-size: 150%;
+    font-style: italic;
 }
 
 td.right {
     text-align: right;
 }
 
+img.interstitial {
+    width: 80%;
+
+    /* center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* spacing */
+    padding-top: 2em;
+}
+
 img.right {
     float: right;
-    margin: 1em;
-    /* width: 100%; */
+    margin-left: 4em;
+    margin-bottom: 2em;
 }
 
 img.left {
     float: left;
-    margin: 1em;
+    margin-right: 4em;
+    margin-bottom: 2em;
 }
 
 .footer {
@@ -68,18 +95,19 @@ img.left {
 
 .floatleft {
     float: left;
-    margin: 1em;
+    margin-left: 1em;
 
 }
 
 @media screen and (max-width: 768px) {
     img {
-        width: 100px;
-        /* width: 33%; */
+        margin-bottom: 1em;
     }
 
     img.left {
         float: right;
+        margin-left: 1em;
+        margin-right: auto;
     }
 
     p, li, table {
