@@ -1,5 +1,4 @@
 body {
-    /* text-align: center; */
     background-color: white;
     /* background-color: ivory; */
 
@@ -62,6 +61,7 @@ blockquote {
 
 td.right {
     text-align: right;
+    vertical-align: top;
 }
 
 img.interstitial {
@@ -100,6 +100,10 @@ img.left {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        text-align: left;
+    }
+
     img {
         margin-bottom: 1em;
     }
@@ -112,9 +116,22 @@ img.left {
 
     p, li, table {
         font-size: medium;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
     }
 
+    ul {
+        padding-inline-start: 15px;
+    }
+
+    blockquote {
+        font-size: medium;
+    }
+
+    .section {
+        padding: 2em 0em 0em 0em;
+    }
     .section h2 {
-        font-size: large;
+        font-size: larger;
     }
 }
