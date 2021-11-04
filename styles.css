@@ -57,6 +57,7 @@ em {
 blockquote {
     font-size: 150%;
     font-style: italic;
+    font-weight: bold;
 }
 
 td.right {
