@@ -9,11 +9,6 @@ body {
 
 /* Change link colors to black */
 
-a:link, a:visited {
-    color: black;
-    text-decoration: none;
-}
-
 h1 {
     text-align: center;
     color:#6e6e0a;
@@ -21,6 +16,7 @@ h1 {
 
 p, li, table {
     font-size: larger;
+    font-family: sans-serif;
 }
 
 .section {
@@ -65,6 +61,14 @@ td.right {
     vertical-align: top;
 }
 
+.interstitial {
+    /* center */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 img.interstitial {
     width: 80%;
 
@@ -88,6 +92,17 @@ img.left {
     margin-right: 4em;
     margin-bottom: 2em;
 }
+
+.navigation {
+    /* clear: both; */
+    text-align: center;   
+}
+
+a:link[class="navigation"], a:visited[class="navigation"] {
+    color: black;
+    text-decoration: none;
+}
+
 
 .footer {
     /* clear: both; */
@@ -117,6 +132,7 @@ img.left {
 
     p, li, table {
         font-size: medium;
+        font-family: sans-serif;
         margin-left: 0.5em;
         margin-right: 0.5em;
     }
