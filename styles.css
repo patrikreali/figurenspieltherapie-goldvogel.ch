@@ -21,6 +21,11 @@ p, li, table {
     font-size: larger;
 }
 
+td {
+    padding-right: 2em;
+    vertical-align: top;
+}
+
 .section {
     margin: auto;
     padding: 8em 0em 0em 0em;
@@ -141,6 +146,10 @@ a:link[class="navigation"], a:visited[class="navigation"] {
         font-size: medium;
         margin-left: 0.5em;
         margin-right: 0.5em;
+    }
+
+    td {
+        padding-right: 1em;
     }
 
     ul {
