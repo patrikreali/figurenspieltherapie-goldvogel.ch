@@ -4,6 +4,7 @@ body {
 
     text-align: justify;
     /* font-family: Helvetica; */
+    font-family: sans-serif;
     line-height: 1.5;
 }
 
@@ -11,12 +12,13 @@ body {
 
 h1 {
     text-align: center;
+    font-size: 300%;
+
     color:#6e6e0a;
 }
 
 p, li, table {
     font-size: larger;
-    font-family: sans-serif;
 }
 
 .section {
@@ -28,7 +30,7 @@ p, li, table {
 
 .header {
   text-align: center;	
-  background-color: #70ad47;
+  /* background-color: #70ad47; */
 }
 
 .nopadding {
@@ -52,7 +54,8 @@ em {
 
 blockquote {
     font-size: 150%;
-    font-style: italic;
+    /* font-style: italic; */
+    /* font-size: larger; */
     font-weight: bold;
 }
 
@@ -132,7 +135,6 @@ a:link[class="navigation"], a:visited[class="navigation"] {
 
     p, li, table {
         font-size: medium;
-        font-family: sans-serif;
         margin-left: 0.5em;
         margin-right: 0.5em;
     }
