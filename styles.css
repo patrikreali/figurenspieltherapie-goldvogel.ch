@@ -133,6 +133,10 @@ a:link[class="navigation"], a:visited[class="navigation"] {
         margin-right: auto;
     }
 
+    h1 {
+        font-size: 200%;
+    }
+
     p, li, table {
         font-size: medium;
         margin-left: 0.5em;
