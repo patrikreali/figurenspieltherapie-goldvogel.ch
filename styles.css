@@ -62,8 +62,11 @@ blockquote.quote {
 }
 
 blockquote.reference {
-    font-style: italic;
     font-size: larger;
+}
+
+.reference q {
+    font-style: italic;
 }
 
 td.right {
