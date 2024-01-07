@@ -52,7 +52,6 @@
 
   <!-- Content -->
 
-
   <!-- Header -->
 	<div class="section header nopadding">
 		<img src="reihe.jpg" width="100%" alt="Goldvogel Praxis für Figurenspieltherapie, Andrea Reali-Ehrler">
@@ -60,25 +59,13 @@
 		<h1>Goldvogel - Praxis für Figurenspieltherapie</h1>
 	  <p >
 	<!-- Navigation -->	
-	<a class="navigation" href="index.html#home">Home</a>
-	|
-	<a class="navigation" href="index.html#was">Figurenspieltherapie</a>
-	|
-	<a class="navigation" href="index.html#wen">Für wen</a>
-	|
-	<a class="navigation" href="index.html#wieviel">Angebot</a>
-	|
-	<a class="navigation" href="index.html#kurse">Kurse</a>
-	|
-	<a class="navigation" href="index.html#ich">Über mich</a>
-	|
-	<a class="navigation" href="index.html#referenzen">Referenzen</a>
-	|
-	<a class="navigation" href="index.html#wo">Kontakt</a>
+    {% for section in site.sections %}
+        {% unless section.id == "/sections/1-home" %}|{% endunless %}
+        <a class="navigation" href="index.html#{{ section.id }}">{{ section.short_title }}</a>
+    {% endfor %}
 	</p>
 	<br>
 	</div>
-
 
     {{ content }}
 
